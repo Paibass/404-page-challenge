@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+header nav label{
+	font-family: 'Inconsoloto', monospace;
+	padding-top: 2%;
+	padding-left: 5%;
+	font-size: 1.5rem;
+	font-size: bold;
+	line-height: 25px;
+	letter-spacing: -0.08em;
+}
+
+main{
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.Scarecrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Scarecrow img{
+	width: clamp(20rem, 50vw, 35rem);
+}
+
+.Text{
+	max-width: 70ch;
+	display: flex;
+	flex-direction: column;
+}
+
+.Text h1{
+	color:#333333;
+	font-family: 'Space Mono';
+	font-weight: 700;
+	font-size: clamp(3rem, 5vw, 4rem);
+	font-style: bold;
+	line-height: 95px;
+	letter-spacing: -0.035em;
+	margin-bottom: 5%;
+}
+
+.Text p{
+	color: #4F4F4F;
+	font-family: 'Space Mono';
+	font-weight: 400;
+	font-style: normal;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+	line-height: 36px;
+	letter-spacing: -0.035em;
+	margin-bottom: 3%;
+}
+
+.button{
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #333333;
+	cursor: pointer;
+	width: 250px;
+	height: 70px;
+}
+
+.button:hover{
+	background-color: #444444;
+	transition: .5s;
+}
+
+.button p{
+	color: #fff;
+	font-family: 'Space Mono';
+	font-weight: 700;
+	font-style: bold;
+	font-size: 0.875rem;
+	line-height: 21px;
+	letter-spacing: -0.035em;
+}
+
+footer{
+	font-family: 'Space Mono';
+	text-align: center;
+	margin-top: 10rem;
+	color:#333333 ;
+}
+
+footer p{
+	font-size: clamp(1rem, 2vw, 1.5rem); ;
+}
+
+footer p a:hover{
+	color:#F32020;
+	transition: .5s;
+}
+
+@media (max-width: 700px){
+	main{
+		margin-left: 5%;
+		flex-direction: column;
+		align-items: center;
+	}
+}
