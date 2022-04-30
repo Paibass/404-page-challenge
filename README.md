@@ -8,12 +8,11 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://paibass.github.io/404-page-challenge/">
       Demo
     </a>
   </h3>
