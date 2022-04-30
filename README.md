@@ -48,5 +48,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/Paibass})
-- Twitter [@your-twitter](https://twitter.com/paibassss})
+- GitHub [@Paibass](https://github.com/Paibass})
+- Twitter [@Paibassss](https://twitter.com/paibassss})
